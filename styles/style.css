@@ -78,10 +78,10 @@
 }
 
 .description {
-  background-color: #f2f2f2;
   padding-top: 100px;
   display: flex;
   justify-content: center;
+  background-color: white;
 }
 
 .two-columns {
@@ -121,7 +121,7 @@
 }
 
 .digits {
-  background-color: #f2f2f2;
+  background-color: white;
   padding: 100px 0;
   display: flex;
   flex-direction: column;
@@ -174,12 +174,13 @@
 }
 
 .feynman {
-  background-color: #f2f2f2;
+  box-sizing: border-box;
   min-height: 890px;
   position: relative;
   display: flex;
   flex-direction: column;
   background: url(../images/feynman.png) left bottom/867px 637px no-repeat;
+  background-color: #f2f2f2;
   padding-top: 100px;
   align-items: center;
 }
@@ -245,6 +246,7 @@
 }
 
 .footer {
+  box-sizing: border-box;
   background-color: #1f1f1f;
   color: white;
   padding: 60px 0 40px 0;
